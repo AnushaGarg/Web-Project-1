@@ -16,7 +16,21 @@ body
 {
     display: table-cell;
     vertical-align: middle;
-    width:960px;
     margin:0 auto;
     alignment-adjust: central;
+   
+} 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+.table
+{
+    width:550px;
+    font-size:75%;
+}
+td
+{
+  font-size: 120%;  
 }
