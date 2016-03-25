@@ -12,7 +12,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+         include 'carousel1.php';
         ?>
     </body>
 </html>
