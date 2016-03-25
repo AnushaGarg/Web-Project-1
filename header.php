@@ -10,16 +10,18 @@
   <link rel="stylesheet" type="text/css" href="Styler.css"/>
 </head>
 <body>
-  <!-- HTML for SEARCH BAR -->
-  <div id="tfheader">
+    
+ <!-- <!-- HTML for SEARCH BAR -->
+ <div id="tfheader">
        <form id="tfnewsearch" method="get" action="http://www.google.com">
  <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">          
- </form> 
+ </form>
       <div class="tfclear"></div>
-      </div>
-  <div class="container-fluid">
+  </div>
+  
  <nav class="navbar navbar-inverse " >
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+  <div class="container-fluid">
+     <div class="collapse navbar-collapse navbar-ex1-collapse">
      <ul class="nav navbar-nav ">
         <li class="active"><a href="#" class="nav">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Hotels <span class="caret"></span></a>
@@ -165,8 +167,9 @@
       <li><a href="#">Write Review</a></li>
     </ul>
   </div>
+  </div>      
 </nav>
-  </div>
-  
+    
+
 </body>
 </html>

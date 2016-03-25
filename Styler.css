@@ -11,10 +11,9 @@ and open the template in the editor.
 html {
     display: table;
     margin: auto;
+   overflow-y:scroll;     
 }
- #tfheader{
-        background-color:#c3dfef;
-    }
+
     #tfnewsearch{
         float:right;
         padding:20px;
@@ -48,8 +47,6 @@ html {
     .tfbutton:hover {
         text-decoration: none;
         background: #007ead;
-        background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
-        background: -moz-linear-gradient(top,  #0095cc,  #00678e);
     }
     /* Fixes submit button height problem in Firefox */
     .tfbutton::-moz-focus-inner {
@@ -66,11 +63,6 @@ body
     alignment-adjust: central;
    
 } 
-@media (min-width: 1200px) {
-    .container{
-        max-width: 970px;
-    }
-}
 .table
 {
     width:550px;
@@ -80,9 +72,26 @@ td
 {
   font-size: 120%;  
 }
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  
+  max-height: 300px ;
+}
 .navbar{
     margin:0;
-    border-radius: 0;
+    border-radius:0;
+    opacity: 0.9;
+    width:auto;
+}
+@media (max-width: 500px) 
+{
+    #tfheader
+    {
+        display: none;
+    }
 }
 .navbar .navbar-nav {
   display: inline-block;
