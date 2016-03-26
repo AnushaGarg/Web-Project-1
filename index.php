@@ -55,73 +55,77 @@ and open the template in the editor.
   <!--Carousel ends-->
         </div>
     </div>
-        <div class="hh-nav-list"></div>
-  <div class="container text-center" id="weekendtrip">
+        <div class="hh-nav-list text-center">
+            <div class="container">
+            </div>
+        </div>
+        <div style="background-color:#e6e6e6;">
+  <div class="container text-center" id="wrapper1">
             
             <h2><b>Weekend Trips<b></h2>
             <br>
         <div class="row">
            
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <img class="img-responsive img-rounded" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
                 <div align="left"><h4>Rishikesh</h4></div>
                 <!--<div class="row">Put code to check the hotels available</div>-->
                 <hr>
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-1 left-marg" >
+                        <div class="col-md-1 col-sm-4 " >
                             <span class="glyphicon glyphicon-tags"></span><p>Adventure Sports<br>Holi City</p>                          
                         </div>
-                        <div class="col-xs-1">
+                        <div class="col-md-1 col-sm-4">
                             <span class="glyphicon glyphicon-road"></span><p><b>6 hours</b> from Delhi</p>                          
                         </div>
-                    <div class="col-xs-1">
+                    <div class="col-md-1 col-sm-4">
                             <span class="glyphicon glyphicon-cloud"></span><p><b>Cloudy Weather</p>                          
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <img class="img-responsive img-rounded" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
                 <h4>Nainital</h4>
                 <hr>
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-1 left-marg" >
+                        <div class="col-md-1 col-sm-4" >
                             <span class="glyphicon glyphicon-tags"></span><p>Adventure Sports<br>Holi City</p>                          
                         </div>
-                        <div class="col-xs-1">
+                        <div class="col-md-1 col-sm-4 ">
                             <span class="glyphicon glyphicon-road"></span><p><b>6 hours</b> from Delhi</p>                          
                         </div>
-                    <div class="col-xs-1">
+                    <div class="col-md-1 col-sm-4">
                             <span class="glyphicon glyphicon-cloud"></span><p><b>Cloudy Weather</p>                          
                         </div>
                     </div>
                 </div>
               </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <img class="img-responsive img-rounded" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
                 <h4>Nainital</h4>
                 <hr>
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-1 left-marg" >
+                        <div class="col-md-1 col-sm-4" >
                             <span class="glyphicon glyphicon-tags"></span><p>Adventure Sports<br>Holi City</p>                          
                         </div>
-                        <div class="col-xs-1">
+                        <div class="col-md-1 col-sm-4 ">
                             <span class="glyphicon glyphicon-road"></span><p><b>6 hours</b> from Delhi</p>                          
                         </div>
-                    <div class="col-xs-1">
+                    <div class="col-md-1 col-sm-4">
                             <span class="glyphicon glyphicon-cloud"></span><p><b>Cloudy Weather</p>                          
                         </div>
                     </div>
                 </div>
-              </div>
+              </div> 
         </div>
-      
-        </div>
-        <div class="jumbotron">
-        <div class="container">
+            </div>
+    </div>
+        <div class="jumbotron" style="background: transparent !important;">
+        <div class="container" id="wrapper1">
             <div class="row">
                 <div class="col-md-4">
                     <div align="center"><h3>Contributors</h3></div>
@@ -136,6 +140,34 @@ and open the template in the editor.
                     <div><p>Write a review</p></div>
                 </div>
             </div>
+        </div>
+        </div>
+        <div class="well">
+            <div class="container" id="wrapper1">
+                <h3><b>Discover&nbsp;Uttarakhand</b></h3>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-4">
+                                <img src="http://placehold.it/621x227" class="img-thumbnail bordershadow" alt="Rafting" />
+                            </div>
+                            <div class="col-md-2 col-sm-1 col-xs-6">
+                                <img src="http://placehold.it/142x260" class="img-thumbnail bordershadow" alt="Rafting"width="100%" />
+                            </div>
+                            <div class="col-md-2 col-sm-1 col-xs-6">
+                                <img src="http://placehold.it/142x260" class="img-thumbnail bordershadow" alt="Rafting"width="100%" />
+                            </div>  
+                        </div>
+                <br> 
+                        <div class="row">
+                            <div class="col-md-2 col-sm-1 col-xs-6">
+                                <img src="http://placehold.it/142x260" class="img-thumbnail bordershadow" alt="Rafting"width="100%" />
+                            </div>
+                            <div class="col-md-2 col-sm-1 col-xs-6">
+                                <img src="http://placehold.it/142x260" class="img-thumbnail bordershadow" alt="Rafting"width="100%" />
+                            </div>  
+                            <div class="col-md-8 col-sm-4">
+                                <img src="http://placehold.it/621x227" class="img-thumbnail bordershadow" alt="Rafting" />
+                            </div>
+                        </div>
         </div>
         </div>
     </body>
