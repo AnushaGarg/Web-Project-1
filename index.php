@@ -4,13 +4,16 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<?php include 'header.php';?>
+
 <html>
     <head>
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
+        <div class="parent_center">
+            <div class="align_center">
+        <?php include 'header.php';?>
         <div id="myCarousel" class="carousel slide " data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -23,7 +26,7 @@ and open the template in the editor.
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <img src="drawing/aulitrek.jpg" alt=""/>
+        <div class="img-responsive"><img src="drawing/aulitrek.jpg" alt=""/></div>
     </div>
 
     <div class="item">
@@ -50,13 +53,17 @@ and open the template in the editor.
   </a>
         </div>
   <!--Carousel ends-->
-        <div class="container text-center">
+        </div>
+    </div>
+        <div class="hh-nav-list"></div>
+  <div class="container text-center" id="weekendtrip">
+            
             <h2><b>Weekend Trips<b></h2>
             <br>
         <div class="row">
            
             <div class="col-sm-4">
-                <img class="img-responsive" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
+                <img class="img-responsive img-rounded" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
                 <div align="left"><h4>Rishikesh</h4></div>
                 <!--<div class="row">Put code to check the hotels available</div>-->
                 <hr>
@@ -75,7 +82,7 @@ and open the template in the editor.
                 </div>
             </div>
             <div class="col-sm-4">
-                <img class="img-responsive" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
+                <img class="img-responsive img-rounded" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
                 <h4>Nainital</h4>
                 <hr>
                 <div class="container">
@@ -93,7 +100,7 @@ and open the template in the editor.
                 </div>
               </div>
             <div class="col-sm-4">
-                <img class="img-responsive" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
+                <img class="img-responsive img-rounded" alt="Image" style="width:100%" src="drawing/white-water-rafting_6afd0ee9-f184-49fc-ad68-d0b46afcd69c.jpg">
                 <h4>Nainital</h4>
                 <hr>
                 <div class="container">
@@ -110,6 +117,25 @@ and open the template in the editor.
                     </div>
                 </div>
               </div>
+        </div>
+      
+        </div>
+        <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div align="center"><h3>Contributors</h3></div>
+                    <div class="col_border"><p>Write a review</p></div>
+                </div>
+                <div class="col-md-4 col_border_left">
+                    <div align="center"><h3>Contributors</h3></div>
+                    <div><p>Write a review</p></div>
+                </div>
+                <div class="col-md-4 col_border_left">
+                    <div align="center"><h3>Contributors</h3></div>
+                    <div><p>Write a review</p></div>
+                </div>
+            </div>
         </div>
         </div>
     </body>

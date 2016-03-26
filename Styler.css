@@ -9,8 +9,6 @@ and open the template in the editor.
 */
 
 html {
-    display: table;
-    margin: auto;
    overflow-y:scroll;     
 }
 
@@ -57,12 +55,26 @@ html {
     }
 body
 {
-    display: table-cell;
-    vertical-align: middle;
-    margin:0 auto;
-    alignment-adjust: central;
+    overflow-x:hidden;
+   
    
 } 
+.col_pad{
+    padding-left: 20px;
+}
+.col_border_left
+{
+   padding-left:10px; border-left:1px solid #ccc;
+}
+.col_border_left_head
+{
+    padding-left:10px; border-left:1px none #ccc;
+}
+.hh-nav-list {
+    background: #626262 none repeat scroll 0 0;
+    border-top: 1px solid #8a8a8a;
+    min-height: 82px;
+}
 .table
 {
     width:550px;
@@ -103,8 +115,20 @@ td
   text-align: center;
 }
 .col-xs-1{
-    padding:0 0 1px 8px !important;
+    padding:0 0 4px 8px !important;
 }
 .left-marg{
    margin-left: 20px!important; 
+}
+
+.parent_center
+{
+    display: table;
+    margin: auto;
+}
+.align_center
+{
+    display: table-cell;
+    vertical-align: middle;
+    margin:0 auto;
 }
