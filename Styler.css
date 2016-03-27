@@ -111,22 +111,24 @@ td
     margin-bottom: 15px;
 }
 .inner-footer-elements{
-     color: #626262;
-    font: 14px/16px Droid Serif,sans-serif;
+     color: #777777;
+    font: 15px/16px "Droid Sans",Arial,Helvetica,sans-serif !important;
+    text-transform: capitalize;
     letter-spacing: 1px;
     word-spacing: 0.9px;
     list-style-type: none;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     white-space:nowrap;
 }
 .inner-footer-elements-ss{
-     color: #626262;
-    font: 14px/16px Droid Serif,sans-serif;
-    letter-spacing: 0.5px;
+     color: #777777;
+    font: 15px/16px "Droid Sans",Arial,Helvetica,sans-serif !important;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
     word-spacing: 0.5px;
     list-style-type: none;
-    margin-bottom: 2px;
-    white-space:wrap;
+    margin-bottom: 3px;
+    
 }
 
 .nopadding {
@@ -137,12 +139,51 @@ td
     margin-bottom: 0px;
     border-bottom: none;
 }
+.foot_border{
+    border-right:1px solid #808080;
+    padding:0px!important;
+}
+#footersec.well>.container>.row>.col-md-1:last-child,#footersec.well>.container>.row>.col-md-2:last-child{
+    border-right:none   
+}
+#footersec.well>.container>.row>.col-md-2,#footersec.well>.container>.row>.col-md-1{
+    padding:0;
+    overflow-y: hidden;
+}
+
+.bottom_foot_border{
+    color: #808080 !important;
+    font: 14px/14px "Droid Sans",Arial,Helvetica,sans-serif !important;
+    margin-left: 2px;
+    letter-spacing: 0.2px;
+    padding:3px;
+}
+.bottspac{
+    padding: 5px;
+}
+.bottspac:first-child{
+    padding-left:0;
+}
+.well>.container>.row>.col-md-2{
+    letter-spacing:1.5px;
+}
+.foot_border>a{
+    color: #808080;
+    font-size: 12px;
+    transition: all 200ms ease-out 0s;    
+}
+.foot_border>a:hover{
+    color: #fff;
+    text-decoration:none;
+}
 @media (min-width:1000px)
 {
     .col_border_left
 {
    padding-left:10px; border-left:1px solid #ccc;
 }
+
+
     .autowidth{
         width:auto!important;
         vertical-align: central!important;
@@ -173,7 +214,8 @@ td
     padding:0 0 4px 8px !important;
 }
 
-
+.innerfooter1{background:transparent!important;border-radius: 0px;margin-bottom:0xp;}
+.mainfooter{}
 .parent_center
 {
     display: table;

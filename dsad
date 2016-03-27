@@ -1,0 +1,63 @@
+[33mcommit 263fce33b2539d98cc9ba792ea0a685b3c6e18bb[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Sun Mar 27 17:47:48 2016 +0530
+
+    Additioon of inner-footer
+
+[33mcommit bc595346ebd4ae2054dfb130713deeb442d6a90b[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Sun Mar 27 04:50:55 2016 +0530
+
+    git check
+
+[33mcommit 94015b2351a184d70263a838b0b81776057175ab[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Sun Mar 27 04:31:57 2016 +0530
+
+    Addition of Wall (Discover_Uttarakhand), Animation
+
+[33mcommit ff50e6398afc94b34d2de36517b33aee016386b6[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Sat Mar 26 17:24:42 2016 +0530
+
+    addition Sponsorbar, Contributors | Homepage
+
+[33mcommit 030e21689c618c7439a729cf106ba50204814e1e[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Sat Mar 26 03:59:34 2016 +0530
+
+    Addition of Basic WeekendTripCards
+
+[33mcommit 4ed75486654e734f31895d709d1b6f679a13318a[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Sat Mar 26 02:12:44 2016 +0530
+
+    addition of Weekend_Trip Cards
+
+[33mcommit d643dafeb7837027f5d31c2e0322a22e1c5ed72d[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Fri Mar 25 16:43:26 2016 +0530
+
+    1. adding search bar
+    2. re-addition of nav-bar
+    3. missing carousel
+
+[33mcommit 242af929069bd500afd9229bacccd4ca6a12319e[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Fri Mar 25 14:55:17 2016 +0530
+
+    1. Add Carousel
+    2. Nav-Bar needs work
+    3. Carousel needs work
+
+[33mcommit a53ea3ef7ad2afaa7ff43a3b0e21313a5be9eace[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Thu Mar 24 19:44:40 2016 +0530
+
+    Add destination content
+
+[33mcommit a6b51ab5df2f2c2bff5ff49d3d683aeb0d70bfe6[m
+Author: APnatural <Abhiroj95@gmail.com>
+Date:   Thu Mar 24 12:49:16 2016 +0530
+
+    Add Navigation Bar using css and Bootstrap

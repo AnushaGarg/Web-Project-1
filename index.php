@@ -129,7 +129,7 @@ and open the template in the editor.
             <div class="row">
                 <div class="col-md-4">
                     <div align="center"><h3>Contributors</h3></div>
-                    <div class="col_border"><p>Write a review</p></div>
+                    <div ><p>Write a review</p></div>
                 </div>
                 <div class="col-md-4 col_border_left">
                     <div align="center"><h3>Contributors</h3></div>
@@ -143,7 +143,7 @@ and open the template in the editor.
         </div>
         </div>
        
-        <div class="well" style="border-radius:0px;margin-bottom: 0px;">
+        <div class="well" style="border-radius:0px;margin-bottom: 0px;padding-top:0px;">
             <div class="container" id="wrapper1">
                 <h3><b>Discover&nbsp;Uttarakhand</b></h3>
                         <div class="row">
@@ -172,7 +172,7 @@ and open the template in the editor.
         </div>
         </div>
         
-        <div class="well" style="background:transparent!important;border-radius: 0px;margin-bottom:0xp;">
+        <div class="well" style="background: transparent;border-radius:0px;margin-bottom: 0px;">
         <div class="container" id="wrapper1">
             <div class="row">
                 <div class="col-md-3">
@@ -217,6 +217,46 @@ and open the template in the editor.
                 </div>
         </div>
         </div>
+        </div>
+        <!-- Footer Section-->
+        <div class="well" id="footersec" style="border-radius:0px;padding-top:0px;margin-bottom:0px;background-color:#333333">
+            <div class="container" id="wrapper1" style="padding-bottom:20px;">
+                <div class="row text-center" style="padding-top:15px;">
+                    <div class="col-md-1 foot_border"><a href="#">About&nbsp;Us</a></div>
+                    <div class="col-md-1 foot_border"><a href="#">Contact&nbsp;Us</a></div>
+                    <div class="col-md-1 foot_border"><a href="#">Press</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Events</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Travellers</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Careers</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Hotels</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Advertisers</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Partner</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Railways</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Buses</a></div>
+                <div class="col-md-1 foot_border"><a href="#">Taxis</a></div>
+                </div>
+                <div class="row text-center" style="padding-top:15px;">
+                <div class="col-md-1 foot_border"><a href="#">Flights</a></div>
+                <div class="col-md-2 foot_border"><a href="#">How To Reach</a></div>
+                <div class="col-md-2 foot_border"><a href="#">Travel Agents</a></div>
+            </div>
+                <div class="row" style="padding-top:20px;">
+                    <div class="col-md-9">
+                        <div class="row text-left bottom_foot_border">
+                            Copyright Statement 2015-16. And copyright stuff.
+                        </div>
+                        <div class="row text-left bottom_foot_border" >
+                           <div class="col-md-8 foot_border" style="border:none;padding:0px;"><a href="#" class="bottspac">Terms Of Use</a>   
+                               <a href="#" class="bottspac">Privacy Policy</a>
+                               <a href="#" class="bottspac">Disclaimer</a>
+                        <a href="#" class="bottspac">Site Map</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        </div>
+                    </div>
+                </div>
+                </div>
         </div>
     </body>
 </html>
