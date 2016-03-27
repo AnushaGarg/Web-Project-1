@@ -104,6 +104,39 @@ td
 .bordershadow:hover {
     box-shadow: 0 0 6px rgba(35, 173, 255, 1);
 }
+.inner-footer{
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-bottom: 15px;
+}
+.inner-footer-elements{
+     color: #626262;
+    font: 14px/16px Droid Serif,sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 0.9px;
+    list-style-type: none;
+    margin-bottom: 2px;
+    white-space:nowrap;
+}
+.inner-footer-elements-ss{
+     color: #626262;
+    font: 14px/16px Droid Serif,sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    list-style-type: none;
+    margin-bottom: 2px;
+    white-space:wrap;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+#discoveruk.well{
+    margin-bottom: 0px;
+    border-bottom: none;
+}
 @media (min-width:1000px)
 {
     .col_border_left

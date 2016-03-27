@@ -142,7 +142,8 @@ and open the template in the editor.
             </div>
         </div>
         </div>
-        <div class="well">
+       
+        <div class="well" style="border-radius:0px;margin-bottom: 0px;">
             <div class="container" id="wrapper1">
                 <h3><b>Discover&nbsp;Uttarakhand</b></h3>
                         <div class="row">
@@ -168,6 +169,53 @@ and open the template in the editor.
                                 <img src="http://placehold.it/621x227" class="img-thumbnail bordershadow" alt="Rafting" />
                             </div>
                         </div>
+        </div>
+        </div>
+        
+        <div class="well" style="background:transparent!important;border-radius: 0px;margin-bottom:0xp;">
+        <div class="container" id="wrapper1">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="inner-footer">HOTELS</h5>
+                    <p class="inner-footer-elements">Hotels In Location</p>
+                    <p class="inner-footer-elements">Hotels In Location</p>
+                    <p class="inner-footer-elements">Hotels In Location</p>
+                    <p class="inner-footer-elements">Hotels In Location</p>
+                    <p class="inner-footer-elements">Hotels In Location</p>
+                    <p class="inner-footer-elements">Hotels In Location</p>
+                    <p class="inner-footer-elements">Hotels In Location</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class=" inner-footer">RESORT</h5>
+                    <p class="inner-footer-elements">Resorts In Location</p>
+                    <p class="inner-footer-elements">Resorts In Location</p>
+                    <p class="inner-footer-elements">Resorts In Location</p>
+                    <p class="inner-footer-elements">Resorts In Location</p>
+                    <p class="inner-footer-elements">Resorts In Location</p>
+                    <p class="inner-footer-elements">Resorts In Location</p>
+                    <p class="inner-footer-elements">Resorts In Location</p>  
+                </div>
+                <div class="col-md-3 ">
+                    <h5 class="inner-footer">SIGHTSEEING</h5>
+                    <p class="inner-footer-elements-ss">Places To Visit In In Location</p>
+                    <p class="inner-footer-elements-ss">Places To Visit In In Location</p>
+                    <p class="inner-footer-elements-ss">Places To Visit In In Location</p>
+                    <p class="inner-footer-elements-ss">Places To Visit In In Location</p>
+                    <p class="inner-footer-elements-ss">Places To Visit In In Location</p>
+                    <p class="inner-footer-elements-ss">Places To Visit In In Location</p>
+                    <p class="inner-footer-elements-ss">Places To Visit In In Location</p>
+                </div>
+                <div class="col-md-3">
+                   <h5 class="text-nowrap inner-footer">POPULAR DESTINATIONS</h5>
+                   <p class="inner-footer-elements">Destination</p>
+                    <p class="inner-footer-elements">Destination</p>
+                    <p class="inner-footer-elements">Destination</p>
+                    <p class="inner-footer-elements">Destination</p>
+                    <p class="inner-footer-elements">Destination</p>
+                    <p class="inner-footer-elements">Destination</p>
+                    <p class="inner-footer-elements">Destination</p>
+                </div>
+        </div>
         </div>
         </div>
     </body>
